@@ -1,6 +1,6 @@
 # Comprehensive Guide to Git Bash Commands and Best Practices
 
-Welcome to the comprehensive guide for Git Bash commands and best practices. This repository aims to provide a detailed reference for using Git Bash effectively, covering everything from basic commands to advanced workflows.
+Welcome to the comprehensive guide for Git Bash commands and best practices. This repository aims to provide a detailed reference for using Git Bash effectively, covering everything from basic commands to workflows.
 
 ## Table of Contents
 
