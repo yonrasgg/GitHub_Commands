@@ -20,6 +20,7 @@ Welcome to the comprehensive guide for Git Bash commands and best practices. Thi
 - [Pull Requests (GitHub Feature)](main_git_bash_commands.md#pull-requests-github-feature)
 - [Best Practices](main_git_bash_commands.md#best-practices)
 - [Additional Notes](main_git_bash_commands.md#additional-notes)
+- [Creating and Handling a New Repository](creating_and_handling_a_new_repo.md#creating-and-handling-a-new-repository)
 
-
+---
 ### [LICENSE](LICENSE)
