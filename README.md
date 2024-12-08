@@ -22,3 +22,4 @@ Welcome to the comprehensive guide for Git Bash commands and best practices. Thi
 - [Additional Notes](main_git_bash_commands.md#additional-notes)
 
 
+### [LICENSE](LICENSE)
