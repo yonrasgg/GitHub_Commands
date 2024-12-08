@@ -1,4 +1,4 @@
-### Basic Git Commands and Their Functions
+### Extended Git Bash Commands and Their Functions
 
 #### General Commands
 - **`pwd`**: Displays the current directory path.
@@ -18,10 +18,18 @@
 - **`git status`**: Displays the status of files in the working directory and staging area.
 - **`git commit -m "[message]"`**: Records changes to the repository with a descriptive message.
 
+#### Branch Management
+- **`git branch [branch_name]`**: Creates a new branch.
+- **`git checkout [branch_name]`**: Switches to the specified branch.
+- **`git checkout -b [branch_name]`**: Creates a new branch and switches to it.
+- **`git stash`**: Temporarily saves changes in the working directory without committing.
+- **`git branch -d [branch_name]`**: Deletes a branch locally.
+
 #### Synchronization
 - **`git push [remote]`**: Sends committed changes to the remote repository.
 - **`git pull [remote]`**: Retrieves and merges changes from a remote repository into the local one.
 - **`git remote`**: Manages connections to remote repositories (add, view, or remove remotes).
+- **`git fetch`**: Retrieves changes from the remote repository without merging them into the current branch.
 
 #### Undo Changes
 - **`git log`**: Lists the commit history.
@@ -37,3 +45,16 @@
 - **`git rebase -i`**: Allows reordering, editing, or combining past commits.
 - **`git cherry-pick [commit]`**: Applies a specific commit from another branch to the current branch.
 - **`git merge --squash`**: Combines multiple commits into a single one before merging.
+
+#### Tagging
+- **`git tag [tag_name]`**: Creates a lightweight tag at the current commit.
+- **`git tag -a [tag_name] -m "[message]"`**: Creates an annotated tag with a message.
+
+#### Pull Requests (GitHub Feature)
+- Notifies team members about new changes.
+- Serves as a platform for code review and collaboration before merging changes.
+
+#### Branch Integration
+- **`git merge [branch_name]`**: Merges the specified branch into the current branch.
+- **`git rebase [branch_name]`**: Reorganizes commit history by applying commits on top of the target branch.
+
